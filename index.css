@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #999;
+}
+header h1{
+    color: brown;
+    text-align: center;
+    line-height: 100px;
+}
+.main-tet{
+    text-align: center;
+}
+.link a{
+    width: 200px;
+    margin: 30px auto;
+    display: block;
+    padding: 10px 15px;
+    background-color: brown;
+    color: #fff;
+    text-align: center;
+}
+.container{
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    right: 0;
+    margin: auto;
+    transform: translateY(-50%);
+    background-color: #fff;
+    width: 1024px;
+    height: 768px;
+    margin: auto;
+    font-family: "楷体";
+}
+.side{
+    width: 320px;
+    padding-top: 20px;
+    height: 748px;
+    color: #eee;
+    background-color: #000;
+}
+.pic img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.pic{
+    margin: 0 auto 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.side ul{
+    width: 200px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.side p{
+    line-height: 25px;
+}
+.s-title{
+    font-size: 23px;
+    margin: 5px 0;
+    line-height: 40px;
+    font-weight: bold;
+}
+.main{
+    width: calc(100% - 220px)
+}
+.main .box{
+    padding: 20px;
+}
+.title{
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 30px;
+    margin: 10px 0;
+    color: #eee;
+    background-color: #000;
+    font-size: 27px;
+}
+table{
+    width: 500px;
+    margin: 15px 0;
+    text-align: center;
+    border-collapse: collapse;
+}
+table td,table th{
+    padding: 5px;
+    border: 1px solid #eee;
+}
+.main ul{
+    margin-left: 30px;
+}
+.main ul li{
+    list-style: disc;
+    line-height: 30px;
+}
